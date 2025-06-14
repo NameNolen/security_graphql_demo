@@ -18,5 +18,9 @@ public class SecurityGraphqlDemoApplication {
 		public String index() {
 			return "Hello World";
 		}
+		@RequestMapping("/graphql")
+		public String indexA() {
+			return "Hello World";
+		}
 	}
 }
